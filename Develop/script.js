@@ -8,3 +8,13 @@ var d = new Date(),
     currentDateString = days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+"EST";
     $("#currentDay").text(currentDateString);
 
+   $(".saveBtn").on("click",function(event){
+    console.log(this);
+    var value = $(this).sibling(".description").val();
+    var time = $(this).parent().attr("id");
+    localStorage.setItem(time, text)
+   })
+
+   $(".time-block").each(function(){
+       
+   })
