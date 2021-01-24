@@ -10,6 +10,10 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
+
+# Screenshots
+
 Please find the below the screen shots
-![Startpage](Assests\Images\Capture1.PNG)
-![continue](Assests\images\Capture2.PNG)
+
+![Startpage](Assets/Capture1.PNG)
+![continue](Assets/Capture2.PNG)
