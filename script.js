@@ -4,7 +4,7 @@ var hours = d.getHours()
  
  var months = ['January','Febuary','March','April','May','June','July','August','September','October','November','December'],
      days = ['Sunday ','Monday','Tuesday','Wednesday','Thurusday','Friday','Saturday'];
-    currentDateString = days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate();
+    currentDateString = days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+ ' ' +d.getFullYear();
     $("#currentDay").text(currentDateString);
 
 

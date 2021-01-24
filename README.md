@@ -11,6 +11,8 @@
 * WHEN the game is over
 * THEN I can save my initials and score
 
+* [live link](https://ramyamariyala.github.io/workdayschedule/)
+
 # Screenshots
 
 Please find the below the screen shots
